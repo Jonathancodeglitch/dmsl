@@ -814,7 +814,7 @@ input.input {
 
   .header .navigation {
     position: absolute;
-    right: -100%; /* Start off-screen */
+    left: -100%; /* Start off-screen */
     padding: 50px 0px 50px 0px;
     top: 100%;
     width: 100%;
@@ -824,7 +824,7 @@ input.input {
   }
 
   .header .navigation.open {
-    right: 0; /* Slide in when open */
+    left: 0; /* Slide in when open */
   }
 
   .header .navigation > ul {
