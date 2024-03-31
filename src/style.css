@@ -1,0 +1,1206 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+  --text-xxxl: 54px;
+  --text-xxl: 28px;
+  --text-xl: 18px;
+  --text-sm: 16px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden !important;
+  font-family: 'Merriweather', serif;
+  font-style: normal;
+  line-height: 1.3;
+  color: #020e35;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* utilities */
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.unique-bg {
+  position: relative;
+}
+
+.unique-bg::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  bottom: -6px;
+  left: 0px;
+  background-color: #27bdf3;
+  width: 100%;
+  height: 29px;
+  z-index: -1;
+}
+
+.primary-btn {
+  border: none;
+  display: block;
+  cursor: pointer;
+  background-color: #020e35;
+  padding: 24px 40px 24px 40px;
+  font-weight: 700;
+  font-size: 16px;
+  color: white !important;
+  box-shadow: 0px 20px 40px 5px #00000040;
+  text-align: center;
+}
+
+.input {
+  margin-top: 20px;
+  background: #c5eefd;
+  border: 1px solid #020e35;
+  border-radius: 10px;
+}
+
+.label {
+  margin-bottom: 40px;
+}
+
+.input,
+.label {
+  display: block;
+  width: 100%;
+}
+
+input.input {
+  height: 70px;
+}
+
+.primary-btn:hover,
+.primary-btn:active {
+  transform: scale(0.9);
+  transition: 400ms all ease-in-out;
+}
+
+/* text */
+.text-xl {
+  font-size: var(--text-xxxl);
+  font-weight: 700;
+  color: #020e35;
+}
+
+.text-l {
+  color: #020e35;
+  font-size: var(--text-xxl);
+  font-weight: 700;
+}
+
+.text-md {
+  font-size: var(--text-xl);
+  font-weight: 400;
+  color: #020e35;
+}
+
+.text-sm {
+  font-size: var(--text-sm);
+  color: #020e35;
+}
+
+/* header */
+
+.header {
+  background-color: white;
+  padding: 24px 0px 24px 0px;
+  box-shadow: 0px 8px 20px 5px #00000014;
+  /*  z-index: 999; */
+  /*   position: fixed; */
+  /*   width: 100%; */
+}
+
+.header > .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* logo */
+.logo {
+  width: 150px;
+}
+
+/* navigation */
+.header .navigation .links {
+  font-weight: 400;
+  font-size: 16px;
+  color: #020e35;
+  padding-bottom: 4px;
+}
+
+.header .navigation .links:hover,
+.header .navigation .links:active {
+  border-bottom: 4px solid #27bdf3;
+}
+
+.header .navigation .links.active {
+  border-bottom: 4px solid #27bdf3;
+}
+
+/* nav button */
+.nav-btn > .primary-btn {
+  width: 100%;
+  box-shadow: none;
+}
+
+/* media queries  for navigation*/
+@media (min-width: 1001px) {
+  /* navigation */
+  .header .navigation > ul {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .header .navigation > ul > li + li {
+    margin-left: 60px;
+  }
+}
+
+/* hero section */
+.hero {
+  padding-top: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero_content {
+  max-width: 600px;
+}
+
+.hero_img {
+  width: 38%;
+  text-align: center;
+}
+
+.hero_text {
+  font-size: 76px;
+  font-weight: 900;
+  margin-bottom: 56px;
+}
+
+.hero_text > span {
+  background-color: #27bdf3;
+  color: white;
+}
+
+/* talented people section */
+
+.talented-people {
+  padding-top: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.talented-people_content {
+  max-width: 460px;
+}
+
+.talented-people_content_title {
+  margin-bottom: 44px;
+}
+
+.talented-people_content_text + .talented-people_content_text {
+  margin-top: 27px;
+}
+
+.talented-people_content_btn {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.talented-people_content_video {
+  display: flex;
+  align-items: center;
+  margin-left: 63px;
+}
+
+.talented-people_content_video span {
+  margin-left: 24px;
+  color: #2b2b2b;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.talented-people_img {
+  width: 45%;
+}
+
+/* things we enjoy */
+
+.thing-we-enjoy-container {
+  margin-top: 200px;
+  padding-bottom: 200px;
+  background-image: url('./assets/image/background-img-1.svg');
+  background-repeat: no-repeat;
+  background-position: 0px 130px;
+}
+
+.thing-we-enjoy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.thing-we-enjoy .left,
+.thing-we-enjoy .right {
+  max-width: 550px;
+}
+
+.thing-we-enjoy .left {
+  width: 45%;
+}
+
+.thing-we-enjoy .right {
+  width: 40%;
+}
+
+.thing-we-enjoy .left-content > .point,
+.thing-we-enjoy .right-content .point {
+  margin-bottom: 40px;
+}
+.thing-we-enjoy .left-content {
+  margin-top: 120px;
+}
+
+.thing-we-enjoy .point {
+  display: flex;
+  align-items: start;
+}
+
+.thing-we-enjoy .point_content > * + * {
+  margin-top: 20px;
+}
+
+.thing-we-enjoy .point_number {
+  font-size: 64px;
+  margin-right: 40px;
+}
+
+/* craft experience section */
+.craft-experience {
+  padding-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.craft-experience_content {
+  max-width: 664px;
+}
+
+.craft-experience_content h1 {
+  margin-bottom: 60px;
+}
+
+.craft-experience_content p {
+  width: 70%;
+}
+
+.craft-experience_content p + p {
+  margin-top: 30px;
+}
+
+.craft-experience_content .primary-btn {
+  margin-top: 60px;
+}
+
+.craft-experience_img {
+  width: 41%;
+}
+
+/* meet the team */
+
+.team {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.team h1 {
+  margin-bottom: 100px;
+}
+
+.team-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px 19px;
+  justify-content: center;
+}
+
+.team-card-container .card {
+  padding: 71px 0px 71px 0px;
+  background-color: white;
+  border: 1px solid #b7b7b7;
+  /*   box-shadow: 0px 20px 40px 5px #00000026;  on over*/
+  border-radius: 50px;
+  text-align: center;
+}
+
+.team-card-container .card-text {
+  margin-top: 60px;
+}
+
+.team-card-container .card-text > * + * {
+  margin-top: 24px;
+}
+
+.profile {
+  width: 200px;
+  height: 200px;
+  background-color: #c5eefd;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+/* previous works section */
+
+.previous-work {
+  text-align: center;
+  padding-top: 200px;
+}
+
+.previous-work_navigation {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 30px 60px;
+  justify-content: center;
+  margin-top: 60px;
+  text-align: left;
+}
+
+.previous-work_navigation li span {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* active state */
+.previous-work_navigation li span.active {
+  color: #ffff;
+  background-color: #27bdf3;
+  padding: 4px;
+}
+
+.previous-work_tab {
+  margin-top: 60px;
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 300px 150px 150px 300px;
+  justify-content: center;
+}
+
+.previous-work .work {
+  background-color: #c5eefd;
+}
+
+.previous-work .box-1 {
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+
+.previous-work .box-2 {
+  grid-column: 2/3;
+  grid-row: 1/4;
+}
+
+.previous-work .box-4 {
+  grid-column: 3/4;
+  grid-row: 2/4;
+}
+
+.previous-work .box-5 {
+  grid-column: 1/2;
+  grid-row: 3/5;
+}
+
+.previous-work .box-6 {
+  grid-column: 2/4;
+  grid-row: 4/5;
+}
+
+.previous-work .primary-btn {
+  margin: 60px auto 0px auto;
+}
+
+/* testimonials */
+
+.testimonial {
+  text-align: center;
+  padding-top: 200px;
+}
+
+.testimonial_card-container {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.testimonial_card {
+  width: 350px;
+  border-radius: 150px;
+  border: 1px solid #949494;
+  padding: 60px 10px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.testimonial_card.active {
+  width: 400px;
+  padding: 100px 10px;
+}
+
+.testimonial_card {
+  margin-left: 35px;
+}
+
+.testimonial_card .profile {
+  width: 150px;
+  height: 150px;
+}
+
+.testimonial h3 {
+  margin-top: 20px;
+}
+
+.star-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 24px 0px;
+}
+
+.star-container > .star + .star {
+  margin-left: 16px;
+}
+.testimonial_card .name {
+  margin: 46px 0px 6px 0px;
+}
+
+/* testimonial_button */
+
+.testimonial_button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.testimonial_button button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* contact us */
+
+.contact-us {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 200px;
+}
+
+.contact-us_img {
+  width: 40%;
+}
+
+.contact-us_content {
+  width: 45%;
+}
+
+/* contact  form */
+.contact-us_form {
+  margin-top: 60px;
+}
+
+.contact-us .primary-btn {
+  padding: 24px 80px 24px 80px;
+}
+
+/* newsletter section */
+.newsletter {
+  display: flex;
+  padding-top: 200px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.newsletter_content {
+  width: 45%;
+}
+
+.newsletter_form {
+  margin-top: 60px;
+}
+
+.newsletter_img {
+  width: 40%;
+}
+
+.newsletter_form .primary-btn {
+  padding: 24px 80px 24px 80px;
+}
+/* footer */
+
+.footer {
+  padding-top: 220px;
+  background-image: url('./assets/image/Illustration-2.svg'),
+    url('./assets/image/Illustration-1.svg');
+  background-position: left bottom, right bottom;
+  background-repeat: no-repeat, no-repeat;
+}
+
+/* secondary footer */
+.secondary-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 60px;
+  margin: -20px;
+}
+
+.secondary-footer > * {
+  margin: 20px;
+}
+
+.secondary-footer .title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 17px;
+}
+
+.secondary-footer .items {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.secondary-footer .items + .items {
+  margin-top: 16px;
+}
+
+.secondary-footer .social-container > * + * {
+  margin-top: 32px;
+}
+
+.secondary-footer .social-container .address h3 {
+  font-size: 16px;
+  font-weight: 700px;
+}
+
+.secondary-footer .social-container .address > * + * {
+  margin-top: 16px;
+}
+
+/* social icons */
+.secondary-footer_icon {
+  display: flex;
+  align-items: center;
+}
+
+.secondary-footer_icon > * + * {
+  margin-left: 40px;
+}
+
+/* main-footer */
+.main-footer {
+  background-color: #020e35;
+  color: #ffff;
+}
+
+.main-footer > .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 0px;
+}
+
+.main-footer .copyright {
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 24px;
+}
+
+.main-footer_links {
+  display: flex;
+  align-items: end;
+}
+
+.main-footer_links li a {
+  font-size: 14px;
+  font-weight: 400;
+  color: inherit;
+}
+
+.main-footer_links > * + * {
+  margin-left: 60px;
+}
+
+/* media queries */
+
+@media (max-width: 1440px) {
+  /*  .label {
+    margin-bottom: 20px;
+  }
+
+  input.input {
+    height: 40px;
+  }
+
+  .input {
+    margin-top: 8px;
+  } */
+
+  /* header */
+  .header {
+    padding: 14px 0px 14px 0px;
+  }
+
+  /* hero section */
+  .hero {
+    padding-top: 150px;
+  }
+
+  /* talented-people */
+
+  .talented-people {
+    padding-top: 150px;
+  }
+
+  /* things we enjoy */
+  .thing-we-enjoy-container {
+    background-image: url('./assets/image/background-img-1.svg');
+    background-repeat: no-repeat;
+    padding-bottom: 70px;
+    background-size: 652px 550px;
+    background-position: 0px 100px;
+  }
+
+  /* craft-experience */
+
+  .craft-experience {
+    padding-top: 0px;
+  }
+
+  /* testimonial */
+
+  .testimonial {
+    padding-top: 150px;
+  }
+
+  .testimonial_card-container {
+    margin-top: 50px;
+  }
+
+  .testimonial_card {
+    padding: 40px 10px;
+  }
+
+  .testimonial_card.active {
+    padding: 60px 10px;
+  }
+}
+
+@media (max-width: 1200px) {
+  /* hero */
+
+  .hero {
+    padding-top: 100px;
+  }
+
+  .hero_text {
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 56px;
+  }
+
+  .hero_img {
+    width: 34%;
+  }
+
+  /*talented people  */
+  .talented-people {
+    padding-top: 100px;
+  }
+
+  .talented-people_img {
+    width: 35%;
+  }
+
+  /* craft-experience_content  */
+  /* craft-experience */
+
+  .craft-experience {
+    padding-top: 100px;
+  }
+  .craft-experience_content {
+    width: 50%;
+  }
+
+  .craft-experience_content p {
+    width: 100%;
+  }
+
+  /* things we enjoy  */
+
+  .thing-we-enjoy-container {
+    background-position: -20px 160px;
+    background-size: 534px 453px;
+    padding-bottom: 0px;
+  }
+
+  /* contact us */
+
+  .contact-us_form {
+    margin-top: 40px;
+  }
+
+  .newsletter_form {
+    margin-top: 40px;
+  }
+}
+
+/* hide menu-btn */
+.menu-btn {
+  cursor: pointer;
+  display: none;
+}
+
+/* navigation for mobile*/
+@media (max-width: 1000px) {
+  .logo {
+    width: 150px;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  /* active state menu button */
+
+  .header {
+    padding: 24px 0px 24px 0px;
+    position: relative;
+  }
+
+  .header .navigation {
+    position: absolute;
+    right: -100%; /* Start off-screen */
+    padding: 50px 0px 50px 0px;
+    top: 100%;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+    transition: right 0.3s ease; /* Slide transition */
+  }
+
+  .header .navigation.open {
+    right: 0; /* Slide in when open */
+  }
+
+  .header .navigation > ul {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .header .navigation_links + .navigation_links {
+    margin-top: 60px;
+  }
+
+  /* nav button */
+  .header .nav-btn {
+    margin-top: 130px;
+  }
+
+  /* hero */
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero_content {
+    text-align: center;
+  }
+
+  .hero_content .primary-btn {
+    margin: 0 auto;
+  }
+
+  .hero_img {
+    width: 70%;
+    margin-top: 60px;
+  }
+
+  /*talented people */
+  .talented-people {
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .talented-people_img {
+    width: 70%;
+    margin-top: 100px;
+  }
+
+  /* things we enjoy */
+
+  .thing-we-enjoy-container {
+    background: url('./assets/image/things-mobile-bg.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+
+  .thing-we-enjoy {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .thing-we-enjoy .left {
+    width: 100%;
+  }
+
+  .thing-we-enjoy .right {
+    width: 100%;
+    margin-top: 170px;
+  }
+
+  .thing-we-enjoy .right-content,
+  .thing-we-enjoy .left-content {
+    width: 90%;
+  }
+
+  /* craft experience */
+  .craft-experience {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .craft-experience_content {
+    width: 90%;
+    text-align: center;
+  }
+
+  .craft-experience_content .primary-btn {
+    margin: 60px auto 0px auto;
+  }
+
+  .craft-experience_img {
+    width: 70%;
+    margin-top: 100px;
+  }
+
+  /* team */
+  .team-card-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .team-card-container .profile {
+    width: 150px;
+    height: 150px;
+  }
+
+  /* previous tab */
+
+  .previous-work_tab {
+    display: block;
+    text-align: center;
+  }
+
+  .previous-work_navigation {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 30px 150px;
+  }
+
+  .previous-work_tab .work {
+    width: 100%;
+    height: 300px;
+    margin-top: 32px;
+  }
+
+  /* testimonials */
+  .testimonial_button {
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  .testimonial_button > * + * {
+    margin-left: 40px;
+  }
+
+  /* contact-us */
+  .contact-us {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-us_img {
+    width: 70%;
+  }
+
+  .contact-us_content {
+    margin-top: 100px;
+    width: 70%;
+  }
+
+  .contact-us_content h1 {
+    text-align: center;
+  }
+  .contact-us_content .primary-btn {
+    margin: 40px auto 0px auto;
+  }
+
+  /* newsletter section */
+
+  .newsletter {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .newsletter_content {
+    width: 70%;
+    margin-top: 100px;
+  }
+
+  .newsletter_content h1 {
+    text-align: center;
+  }
+
+  .newsletter_img {
+    width: 70%;
+  }
+
+  .newsletter .primary-btn {
+    margin: 40px auto 0px auto;
+  }
+
+  /* footer */
+  .footer {
+    background-image: url('./assets/image/footer-mobile-bg.svg'),
+      url('./assets/image/footer-mobile-bg.svg');
+    background-position: top center, bottom center;
+  }
+
+  /* secondary footer */
+  .secondary-footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .secondary-footer > * {
+    margin: 0px;
+    margin-top: 100px;
+  }
+
+  .secondary-footer .logo {
+    margin: 0 auto;
+  }
+
+  /* social icons */
+  .secondary-footer_icon {
+    justify-content: center;
+  }
+
+  .secondary-footer_icon > * {
+    width: 33px;
+  }
+
+  .secondary-footer_icon > * + * {
+    margin-left: 24px;
+  }
+}
+
+@media (max-width: 500px) {
+  :root {
+    --text-xxxl: 40px;
+    --text-xxl: 28px;
+    --text-xl: 18px;
+    --text-sm: 16px;
+  }
+
+  /* logo */
+  .logo {
+    width: 100px;
+  }
+
+  /* navigation */
+  .header .navigation {
+    padding: 40px 0px 40px 0px;
+  }
+
+  .header .navigation_links + .navigation_links {
+    margin-top: 40px;
+  }
+
+  /* nav button */
+  .header .nav-btn {
+    margin-top: 100px;
+  }
+
+  /* hero_text */
+  .hero {
+    padding-top: 60px;
+  }
+
+  .hero_text {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+
+  .hero_img {
+    width: 90%;
+  }
+
+  /* talented-people */
+  .talented-people_content_btn {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .talented-people_content_video {
+    margin: 40px 0px 0px 0px;
+  }
+
+  .talented-people_img {
+    margin-top: 60px;
+    width: 90%;
+  }
+
+  /* things we enjoy */
+
+  .thing-we-enjoy-container {
+    margin-top: 100px;
+    background: none;
+  }
+
+  .thing-we-enjoy .left h1 {
+    text-align: center;
+  }
+
+  .thing-we-enjoy .point {
+    flex-direction: column;
+  }
+
+  .thing-we-enjoy .right {
+    margin-top: 0px;
+  }
+
+  .thing-we-enjoy .right-content,
+  .thing-we-enjoy .left-content,
+  .thing-we-enjoy .right,
+  .thing-we-enjoy .left {
+    width: 100%;
+  }
+
+  .point_content {
+    margin-top: 40px;
+  }
+
+  /* craft experience section */
+  .craft-experience {
+    padding-top: 100px;
+  }
+
+  .craft-experience_content {
+    width: 100%;
+  }
+
+  .craft-experience_img {
+    width: 90%;
+  }
+  /* meet the team */
+  .team-card-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  /* previous work */
+
+  .previous-work_navigation {
+    gap: 24px;
+    justify-content: space-between;
+  }
+
+  .previous-work_navigation li span {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  /* testimony */
+  .testimonial {
+    padding-top: 150px;
+  }
+
+  .testimonial_card {
+    width: 310px;
+    border-radius: 50px;
+    border: 1px solid #949494;
+    padding: 40px 10px;
+    margin: 20px;
+  }
+
+  /* contact us */
+
+  .contact-us {
+    padding-top: 150px;
+  }
+
+  .contact-us_content,
+  .contact-us_img {
+    width: 100%;
+  }
+
+  /* newsletter */
+  .newsletter {
+    padding-top: 150px;
+  }
+
+  .newsletter_content,
+  .newsletter_img {
+    width: 100%;
+  }
+
+  /* main footer */
+  .main-footer > .container {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .main-footer .copyright {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px 0px 24px 0px;
+  }
+}
