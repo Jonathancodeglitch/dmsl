@@ -820,7 +820,7 @@ input.input {
     width: 100%;
     background-color: white;
     z-index: 100;
-    transition: right 0.3s ease; /* Slide transition */
+    transition: left 0.3s ease; /* Slide transition */
   }
 
   .header .navigation.open {
