@@ -7,7 +7,7 @@ export default function ThingsWeEnjoySection() {
             <span className="unique-bg">Things We Enjoy</span>
           </h1>
           <ul className="left-content">
-            <li className="point">
+            <li className="point fade-up">
               <span className="point_number">01</span>
               <div className="point_content">
                 <h3 className="text-l">Content writing</h3>
@@ -17,7 +17,7 @@ export default function ThingsWeEnjoySection() {
                 </p>
               </div>
             </li>
-            <li className="point">
+            <li className="point fade-up">
               <div className="point_number">02</div>
               <div className="point_content">
                 <h3 className="text-l">Video Editing</h3>
@@ -27,7 +27,7 @@ export default function ThingsWeEnjoySection() {
                 </p>
               </div>
             </li>
-            <li className="point">
+            <li className="point fade-up">
               <div className="point_number">03</div>
               <div className="point_content">
                 <h3 className="text-l">Social media marketing</h3>
@@ -42,7 +42,7 @@ export default function ThingsWeEnjoySection() {
         {/* right begins */}
         <div className="right">
           <ul className="right-content">
-            <li className="point">
+            <li className="point fade-up">
               <div className="point_number">04</div>
               <div className="point_content">
                 <h3 className="text-l">Graphic Design</h3>
@@ -52,7 +52,7 @@ export default function ThingsWeEnjoySection() {
                 </p>
               </div>
             </li>
-            <li className="point">
+            <li className="point fade-up">
               <div className="point_number">05</div>
               <div className="point_content">
                 <h3 className="text-l">Website design & development</h3>
@@ -62,7 +62,7 @@ export default function ThingsWeEnjoySection() {
                 </p>
               </div>
             </li>
-            <li className="point">
+            <li className="point fade-up">
               <div className="point_number">06</div>
               <div className="point_content">
                 <h3 className="text-l">Social media management</h3>

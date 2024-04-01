@@ -22,15 +22,12 @@ export default function PreviousWorkSection() {
       </ul>
 
       <div className="previous-work_tab">
-        <div className="box-1 work"></div>
-        <div className="box-2 work"></div>
-        <div className="box-3 work"></div>
-        <div className="box-4 work"></div>
-        <div className="box-5 work"></div>
-        <div className="box-6 work"></div>
-        {/* <div className="box-7 work"></div>
-        <div className="box-8 work"></div>
-        <div className="box-9 work"></div> */}
+        <div className="box-1 work fade-up"></div>
+        <div className="box-2 work fade-up"></div>
+        <div className="box-3 work fade-up"></div>
+        <div className="box-4 work fade-up"></div>
+        <div className="box-5 work fade-up"></div>
+        <div className="box-6 work fade-up"></div>
       </div>
 
       <Button name="See More" />

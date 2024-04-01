@@ -4,10 +4,10 @@ import contactUsImge from '../assets/image/contact-us-img.svg';
 export default function ContactUsSection() {
   return (
     <section className="container contact-us">
-      <div className="contact-us_img">
+      <div className="contact-us_img slide-in-left">
         <img src={contactUsImge} alt="illustration" />
       </div>
-      <div className="contact-us_content">
+      <div className="contact-us_content slide-in-left">
         <h1 className="text-xl">
           Need Help With <span className="unique-bg">Something</span>? Contact
           Us

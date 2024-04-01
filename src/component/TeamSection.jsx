@@ -7,14 +7,14 @@ export default function TeamSection() {
         <span className="unique-bg">Meet the Team </span>
       </h1>
       <div className="team-card-container">
-        <div className="card">
+        <div className="card fade-up">
           <Profile />
           <div className="card-text">
             <div className="name text-l">George O.</div>
             <div className="profession text-md">Creative Directors</div>
           </div>
         </div>
-        <div className="card">
+        <div className="card fade-up">
           <Profile />
           <div className="card-text">
             <div className="name text-l">George O.</div>
@@ -22,28 +22,28 @@ export default function TeamSection() {
             <div className="see-more text-md">See more</div>
           </div>
         </div>
-        <div className="card">
+        <div className="card fade-up">
           <Profile />
           <div className="card-text">
             <div className="name text-l">George O.</div>
             <div className="profession text-md">Creative Directors</div>
           </div>
         </div>
-        <div className="card">
+        <div className="card fade-up">
           <Profile />
           <div className="card-text">
             <div className="name text-l">George O.</div>
             <div className="profession text-md">Creative Directors</div>
           </div>
         </div>
-        <div className="card">
+        <div className="card fade-up">
           <Profile />
           <div className="card-text">
             <div className="name text-l">George O.</div>
             <div className="profession text-md">Creative Directors</div>
           </div>
         </div>
-        <div className="card">
+        <div className="card fade-up">
           <Profile />
           <div className="card-text">
             <div className="name text-l">George O.</div>
