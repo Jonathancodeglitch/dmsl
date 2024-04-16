@@ -32,7 +32,7 @@ function App() {
         duration: 0.4,
       });
     });
-
+/* 
     // animation to slide in from the left
     const slideFromLefts = gsap.utils.toArray(".slide-from-left");
     slideFromLefts.forEach((slideFromLeft) => {
@@ -59,7 +59,7 @@ function App() {
         ease: "none",
         duration: 0.8,
       });
-    });
+    }); */
   });
 
   return (
