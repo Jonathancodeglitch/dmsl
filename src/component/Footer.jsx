@@ -18,7 +18,7 @@ function SecondaryFooter() {
   return (
     <div className="container">
       <div className="secondary-footer">
-        <ul className="social-container">
+        <ul className="social-container fade-up">
           <li>
             <div className="logo" href="#">
               <a href="#">
@@ -53,7 +53,7 @@ function SecondaryFooter() {
           </li>
         </ul>
 
-        <ul className="service">
+        <ul className="service fade-up">
           <li className="title">Services</li>
           <li className="items">Graphic design</li>
           <li className="items">Web design & development</li>
@@ -63,7 +63,7 @@ function SecondaryFooter() {
           <li className="items">Video editing</li>
         </ul>
 
-        <ul className="company">
+        <ul className="company fade-up">
           <li className="title">Company</li>
           <li className="items">
             <a href="#">Case Studies </a>
@@ -79,7 +79,7 @@ function SecondaryFooter() {
           </li>
         </ul>
 
-        <ul className="about-us">
+        <ul className="about-us fade-up">
           <li className="title">About Us</li>
           <li className="items">
             <a href="#">Featured clients</a>
@@ -92,7 +92,7 @@ function SecondaryFooter() {
           </li>
         </ul>
 
-        <ul className="lagal-staff">
+        <ul className="lagal-staff fade-up">
           <li className="title">Legal Stuff</li>
           <li className="items">
             <a href="#">Terms & Conditions </a>

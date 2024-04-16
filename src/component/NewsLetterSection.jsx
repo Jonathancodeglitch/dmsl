@@ -1,10 +1,10 @@
-import Button from './button.jsx';
-import newsletterImg from '../assets/image/newsletter-img.svg';
+import Button from "./button.jsx";
+import newsletterImg from "../assets/image/newsletter-img.svg";
 
 export default function NewsLetterSection() {
   return (
     <section className="container newsletter">
-      <div className="newsletter_content slide-in-left">
+      <div className="newsletter_content">
         <h1 className="text-xl">
           Join Our Newsletters & get
           <span className="unique-bg"> the latest offers</span>
@@ -21,7 +21,7 @@ export default function NewsLetterSection() {
           <Button name="send" />
         </form>
       </div>
-      <div className="newsletter_img slide-in-right">
+      <div className="newsletter_img">
         <img src={newsletterImg} alt="illustration" />
       </div>
     </section>
