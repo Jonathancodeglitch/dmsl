@@ -40,7 +40,6 @@ function App() {
         scrollTrigger: {
           trigger: slideFromLeft,
           start: "top 80%",
-          markers: true,
         },
         x: "-600",
         ease: "none",
