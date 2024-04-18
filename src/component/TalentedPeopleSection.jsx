@@ -19,7 +19,6 @@ export default function TalentedPeople() {
         scrollTrigger: {
           trigger: ".talented-people_img",
           start: "top bottom",
-          markers: true,
         },
         x: "-500",
         opacity: "0",

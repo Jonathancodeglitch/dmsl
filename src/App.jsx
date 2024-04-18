@@ -20,7 +20,7 @@ function App() {
 
   useGSAP(() => {
     // animations for fade up
-    /*  const fadeUps = gsap.utils.toArray(".fade-up");
+    const fadeUps = gsap.utils.toArray(".fade-up");
     fadeUps.forEach((fadeUp) => {
       gsap.from(fadeUp, {
         scrollTrigger: {
@@ -32,8 +32,10 @@ function App() {
         ease: "none",
         duration: 0.4,
       });
-    }); */
+    });
+
     /* 
+    
     // animation to slide in from the left
     const slideFromLefts = gsap.utils.toArray(".slide-from-left");
     slideFromLefts.forEach((slideFromLeft) => {
