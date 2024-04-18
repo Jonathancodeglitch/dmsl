@@ -13,7 +13,7 @@ import FooterSection from "./component/Footer";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useRef } from "react";
+
 function App() {
   gsap.registerPlugin(useGSAP);
   gsap.registerPlugin(ScrollTrigger);
@@ -32,7 +32,7 @@ function App() {
         duration: 0.4,
       });
     });
-/* 
+    /* 
     // animation to slide in from the left
     const slideFromLefts = gsap.utils.toArray(".slide-from-left");
     slideFromLefts.forEach((slideFromLeft) => {

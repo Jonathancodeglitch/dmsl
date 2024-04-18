@@ -1,9 +1,47 @@
-import Button from './button';
-import contactUsImge from '../assets/image/contact-us-img.svg';
+import Button from "./button";
+import contactUsImge from "../assets/image/contact-us-img.svg";
+import { gsap } from "gsap";
+import { useGSAP } from "@gsap/react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useRef } from "react";
 
 export default function ContactUsSection() {
+  //animation
+  gsap.registerPlugin(useGSAP);
+  gsap.registerPlugin(ScrollTrigger);
+  const container = useRef(null);
+
+  useGSAP(
+    () => {
+      // animation to slide in from the left
+
+      gsap.from(".slide-from-left", {
+        scrollTrigger: {
+          trigger: ".slide-from-left",
+          start: "top 80%",
+        },
+        x: "-600",
+        ease: "none",
+        duration: 0.8,
+      });
+
+      // animation to slide in from the right
+
+      gsap.from(".slide-from-right", {
+        scrollTrigger: {
+          trigger: ".slide-from-right",
+          start: "top 80%",
+        },
+        x: "600",
+        ease: "none",
+        duration: 0.8,
+      });
+    },
+    { scope: container }
+  );
+
   return (
-    <section className="container contact-us">
+    <section className="container contact-us" ref={container}>
       <div className="contact-us_img slide-from-left">
         <img src={contactUsImge} alt="illustration" />
       </div>
