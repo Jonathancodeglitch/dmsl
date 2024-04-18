@@ -15,7 +15,7 @@ export default function ContactUsSection() {
     () => {
       // animation to slide in from the left
 
-      gsap.from(".slide-from-left", {
+     /*  gsap.from(".slide-from-left", {
         scrollTrigger: {
           trigger: ".slide-from-left",
           start: "top bottom",
@@ -25,10 +25,10 @@ export default function ContactUsSection() {
         ease: "none",
         duration: 0.8,
       });
-
+ */
       // animation to slide in from the right
 
-      gsap.from(".slide-from-right", {
+    /*   gsap.from(".slide-from-right", {
         scrollTrigger: {
           trigger: ".slide-from-right", 
           start: "top bottom",
@@ -36,9 +36,9 @@ export default function ContactUsSection() {
         x: "600",
         ease: "none",
         duration: 0.8,
-      });
+      }); */
     },
-    { scope: container }
+    //{ scope: container }
   );
 
   return (
