@@ -32,6 +32,7 @@ function App() {
         y: "200",
         ease: "none",
         duration: 0.4,
+        delay: 1,
       });
     });
 
