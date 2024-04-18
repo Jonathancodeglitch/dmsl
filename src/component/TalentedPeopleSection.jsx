@@ -18,7 +18,7 @@ export default function TalentedPeople() {
       gsap.from(".talented-people_img", {
         scrollTrigger: {
           trigger: ".talented-people_img",
-          start: "top bottom",
+          start: "top center",
           markers: true,
         },
         x: "-500",
