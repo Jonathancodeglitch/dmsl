@@ -19,6 +19,7 @@ export default function ContactUsSection() {
         scrollTrigger: {
           trigger: ".contact-us",
           start: "top 80%",
+          markers: true,
         },
         x: "-600",
         ease: "none",

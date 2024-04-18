@@ -26,6 +26,7 @@ function App() {
         scrollTrigger: {
           trigger: fadeUp,
           start: "-100 bottom",
+          markers: true,
         },
         y: "200",
         ease: "none",
