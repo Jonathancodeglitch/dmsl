@@ -1,10 +1,10 @@
-import Button from './button';
-import playIcon from '../assets/image/PlayIcon.svg';
-import poweredByImg from '../assets/image/powered-by-img.svg';
-import { gsap } from 'gsap';
-import { useGSAP } from '@gsap/react';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { useRef } from 'react';
+import Button from "./button";
+import playIcon from "../assets/image/PlayIcon.svg";
+import poweredByImg from "../assets/image/powered-by-img.svg";
+import { gsap } from "gsap";
+import { useGSAP } from "@gsap/react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useRef } from "react";
 
 export default function TalentedPeople() {
   /* animation for talented-people_img  */
@@ -15,11 +15,15 @@ export default function TalentedPeople() {
   useGSAP(
     () => {
       // animation for hero img
-      gsap.from('.talented-people_img', {
-        scrollTrigger: '.talented-people_img',
-        x: '-500',
-        opacity: '0',
-        ease: 'none',
+      gsap.from(".talented-people_img", {
+        scrollTrigger: {
+          trigger: ".talented-people_img",
+          start: "top bottom",
+          markers: true,
+        },
+        x: "-500",
+        opacity: "0",
+        ease: "none",
         duration: 0.8,
       });
     },
