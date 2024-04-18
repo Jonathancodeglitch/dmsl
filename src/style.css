@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 
 :root {
   --text-xxxl: 54px;
@@ -15,7 +15,7 @@
 
 body {
   overflow-x: hidden !important;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   font-style: normal;
   line-height: 1.3;
   color: #020e35;
@@ -46,7 +46,7 @@ ul {
 }
 
 .unique-bg::after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   bottom: -6px;
@@ -257,7 +257,7 @@ input.input {
 .thing-we-enjoy-container {
   margin-top: 200px;
   padding-bottom: 200px;
-  background-image: url('./assets/image/background-img-1.svg');
+  background-image: url("./assets/image/background-img-1.svg");
   background-repeat: no-repeat;
   background-position: 0px 130px;
 }
@@ -573,8 +573,8 @@ input.input {
 
 .footer {
   padding-top: 220px;
-  background-image: url('./assets/image/Illustration-2.svg'),
-    url('./assets/image/Illustration-1.svg');
+  background-image: url("./assets/image/Illustration-2.svg"),
+    url("./assets/image/Illustration-1.svg");
   background-position: left bottom, right bottom;
   background-repeat: no-repeat, no-repeat;
 }
@@ -665,6 +665,11 @@ input.input {
   margin-left: 60px;
 }
 
+/* animation */
+.fade-up {
+  will-change: transform, opacity;
+}
+
 /* media queries */
 
 @media (max-width: 1440px) {
@@ -698,7 +703,7 @@ input.input {
 
   /* things we enjoy */
   .thing-we-enjoy-container {
-    background-image: url('./assets/image/background-img-1.svg');
+    background-image: url("./assets/image/background-img-1.svg");
     background-repeat: no-repeat;
     padding-bottom: 70px;
     background-size: 652px 550px;
@@ -876,7 +881,7 @@ input.input {
   /* things we enjoy */
 
   .thing-we-enjoy-container {
-    background: url('./assets/image/things-mobile-bg.svg');
+    background: url("./assets/image/things-mobile-bg.svg");
     background-repeat: no-repeat;
     background-position: right center;
   }
@@ -1007,8 +1012,8 @@ input.input {
 
   /* footer */
   .footer {
-    background-image: url('./assets/image/footer-mobile-bg.svg'),
-      url('./assets/image/footer-mobile-bg.svg');
+    background-image: url("./assets/image/footer-mobile-bg.svg"),
+      url("./assets/image/footer-mobile-bg.svg");
     background-position: top center, bottom center;
   }
 

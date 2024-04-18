@@ -18,7 +18,7 @@ export default function HeroSection() {
         scrollTrigger: '.hero_content',
         x: '-700',
         ease: 'bounce.out',
-        duration: 2,
+        duration: 2.5,
       });
 
       // animation for hero img
