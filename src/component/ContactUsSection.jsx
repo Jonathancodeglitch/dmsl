@@ -17,7 +17,7 @@ export default function ContactUsSection() {
 
       gsap.from(".slide-from-left", {
         scrollTrigger: {
-          trigger: ".slide-from-left",
+          trigger: ".contact-us",
           start: "top 80%",
         },
         x: "-600",
@@ -29,7 +29,7 @@ export default function ContactUsSection() {
 
       gsap.from(".slide-from-right", {
         scrollTrigger: {
-          trigger: ".slide-from-right",
+          trigger: ".contact-us",
           start: "top 80%",
         },
         x: "600",
