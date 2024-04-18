@@ -11,7 +11,7 @@ export default function HeroSection() {
   gsap.registerPlugin(useGSAP);
   gsap.registerPlugin(ScrollTrigger);
 
-  useGSAP(
+  /* useGSAP(
     () => {
       // animation for hero_content
       gsap.from('.hero_content', {
@@ -31,7 +31,7 @@ export default function HeroSection() {
       });
     },
     { scope: myHeroSection }
-  );
+  ); */
 
   return (
     <section ref={myHeroSection} className="hero container container">
