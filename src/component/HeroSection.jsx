@@ -1,9 +1,9 @@
-import Button from './button';
-import heroImg from '../assets/image/heroImg.svg';
-import { gsap } from 'gsap';
-import { useGSAP } from '@gsap/react';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { useRef } from 'react';
+import Button from "./button";
+import heroImg from "../assets/image/heroImg.svg";
+import { gsap } from "gsap";
+import { useGSAP } from "@gsap/react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useRef } from "react";
 
 export default function HeroSection() {
   const myHeroSection = useRef(null);
@@ -11,27 +11,29 @@ export default function HeroSection() {
   gsap.registerPlugin(useGSAP);
   gsap.registerPlugin(ScrollTrigger);
 
-  /* useGSAP(
+  useGSAP(
     () => {
       // animation for hero_content
-      gsap.from('.hero_content', {
-        scrollTrigger: '.hero_content',
-        x: '-700',
-        ease: 'bounce.out',
+      gsap.from(".hero_content", {
+        scrollTrigger: ".hero_content",
+        x: "-700",
+        ease: "bounce.out",
         duration: 2.5,
+        delay: 0.5,
       });
 
       // animation for hero img
-      gsap.from('.hero_img', {
-        scrollTrigger: '.hero_img',
-        y: '80',
-        opacity: '0',
-        ease: 'none',
+      gsap.from(".hero_img", {
+        scrollTrigger: ".hero_img",
+        y: "80",
+        opacity: "0",
+        ease: "none",
         duration: 0.6,
+        delay: 0.5,
       });
     },
     { scope: myHeroSection }
-  ); */
+  );
 
   return (
     <section ref={myHeroSection} className="hero container container">
