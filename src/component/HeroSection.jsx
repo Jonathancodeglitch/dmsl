@@ -19,7 +19,7 @@ export default function HeroSection() {
         x: "-700",
         ease: "bounce.out",
         duration: 2.5,
-        delay: 0.5,
+        delay: 0.3,
       });
 
       // animation for hero img
@@ -29,7 +29,7 @@ export default function HeroSection() {
         opacity: "0",
         ease: "none",
         duration: 0.6,
-        delay: 0.5,
+        delay: 0.3,
       });
     },
     { scope: myHeroSection }
