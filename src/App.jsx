@@ -17,7 +17,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 function App() {
   gsap.registerPlugin(useGSAP);
   gsap.registerPlugin(ScrollTrigger);
-  
+
   useGSAP(() => {
     // animations for fade up
     const fadeUps = gsap.utils.toArray(".fade-up");
@@ -27,7 +27,6 @@ function App() {
           trigger: fadeUp,
           start: "top bottom",
           end: "bottom top",
-          markers: true,
         },
         y: "200",
         ease: "none",
