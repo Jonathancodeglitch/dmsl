@@ -27,7 +27,7 @@ function App() {
           trigger: fadeUp,
           start: "-100px bottom",
           end: "bottom top",
-          markers:true
+          
         },
         y: "200",
         ease: "none",
