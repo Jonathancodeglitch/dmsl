@@ -17,7 +17,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 function App() {
   gsap.registerPlugin(useGSAP);
   gsap.registerPlugin(ScrollTrigger);
-  ScrollTrigger.normalizeScroll(true);
+  
   useGSAP(() => {
     // animations for fade up
     const fadeUps = gsap.utils.toArray(".fade-up");
