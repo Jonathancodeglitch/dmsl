@@ -20,26 +20,20 @@ function App() {
 
   useGSAP(() => {
     // animations for fade up
-    setTimeout(myGreeting, 5000);
-    function myGreeting() {
-      const fadeUps = gsap.utils.toArray(".fade-up");
-      fadeUps.forEach((fadeUp) => {
-        gsap.from(fadeUp, {
-          scrollTrigger: {
-            trigger: fadeUp,
-            start: () => "-150px bottom",
-            end: () => `+=${fadeUp.offsetHeight}`,
-            markers: true,
-            /*  preventOverlaps: true,
-            
-            invalidateOnRefresh: true */
-          },
-          y: "200",
-          ease: "none",
-          duration: 0.4,
-        });
-      }, []);
-    }
+    const fadeUps = gsap.utils.toArray(".fade-up");
+    fadeUps.forEach((fadeUp) => {
+      gsap.from(fadeUp, {
+        scrollTrigger: {
+          trigger: fadeUp,
+          start: () => "-150px bottom",
+          end: () => `+=${fadeUp.offsetHeight}`,
+          markers: true,
+        },
+        y: "200",
+        ease: "none",
+        duration: 0.4,
+      });
+    }, []);
 
     /* 
     
