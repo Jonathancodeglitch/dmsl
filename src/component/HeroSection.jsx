@@ -17,7 +17,7 @@ export default function HeroSection() {
       gsap.from(".hero_content", {
         scrollTrigger: ".hero_content",
         x: "-700",
-        ease: "bounce.out",
+        ease: "none",
         duration: 2.5,
         delay: 0.3,
       });
