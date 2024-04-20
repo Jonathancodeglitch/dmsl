@@ -12,7 +12,7 @@ export default function TalentedPeople() {
   gsap.registerPlugin(useGSAP);
   gsap.registerPlugin(ScrollTrigger);
 
-   useGSAP(
+ /*   useGSAP(
     () => {
       // animation for hero img
       gsap.from(".talented-people_img", {
@@ -27,7 +27,7 @@ export default function TalentedPeople() {
       });
     },
     { scope: TalentedPeopleSection }
-  );
+  ); */
 
   return (
     <section ref={TalentedPeopleSection} className="talented-people container">
