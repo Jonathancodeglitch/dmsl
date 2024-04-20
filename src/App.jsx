@@ -27,7 +27,9 @@ function App() {
           trigger: fadeUp,
           start: () => "-100px bottom",
           end: () => `+=${fadeUp.offsetHeight}`,
+          preventOverlaps: true,
           markers: true,
+          invalidateOnRefresh: true
         },
         y: "200",
         ease: "none",
