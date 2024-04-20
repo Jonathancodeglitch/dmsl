@@ -28,13 +28,14 @@ function App() {
           start: () => "-150px bottom",
           end: () => `+=${fadeUp.offsetHeight}`,
           markers: true,
-         /*  preventOverlaps: true,
+          /*  preventOverlaps: true,
           
           invalidateOnRefresh: true */
         },
         y: "200",
         ease: "none",
         duration: 0.4,
+        delay: 0.3,
       });
     });
 
