@@ -25,9 +25,9 @@ function App() {
       gsap.from(fadeUp, {
         scrollTrigger: {
           trigger: fadeUp,
-          start: "-100px bottom",
-          end: "bottom top",
-          
+          start: () => "-100px bottom",
+          end: () => `+=${fadeUp.offsetHeight}`,
+          markers: true,
         },
         y: "200",
         ease: "none",
