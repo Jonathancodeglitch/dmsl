@@ -1,5 +1,5 @@
-import Button from './button';
-import CraftExperienceImg from '../assets/image/craft-experience-img.svg';
+import Button from "./button";
+import CraftExperienceImg from "../assets/image/craft-experience-img.svg";
 
 export default function CraftExperienceSection() {
   return (
@@ -28,7 +28,10 @@ export default function CraftExperienceSection() {
         <Button name="Learn more" />
       </div>
       <div className="craft-experience_img">
-        <img src={CraftExperienceImg} alt="illustration" />
+        <img
+          src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632591/DMSL/craft-experience-img_dsfkhy.svg"
+          alt="illustration"
+        />
       </div>
     </section>
   );

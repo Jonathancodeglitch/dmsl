@@ -24,7 +24,10 @@ export default function HeroSection() {
 
       // animation for hero img
       gsap.from(".hero_img", {
-        scrollTrigger: ".hero_img",
+        scrollTrigger: {
+          trigger: ".hero_img",
+          start: () => "top bottom",
+        },
         y: "80",
         opacity: "0",
         ease: "none",
