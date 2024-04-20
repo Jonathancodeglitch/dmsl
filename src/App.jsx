@@ -25,11 +25,12 @@ function App() {
       gsap.from(fadeUp, {
         scrollTrigger: {
           trigger: fadeUp,
-          start: () => "-100px bottom",
+          start: () => "top bottom",
           end: () => `+=${fadeUp.offsetHeight}`,
-          preventOverlaps: true,
           markers: true,
-          invalidateOnRefresh: true
+         /*  preventOverlaps: true,
+          
+          invalidateOnRefresh: true */
         },
         y: "200",
         ease: "none",
