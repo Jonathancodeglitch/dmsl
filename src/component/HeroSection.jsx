@@ -11,7 +11,7 @@ export default function HeroSection() {
   gsap.registerPlugin(useGSAP);
   gsap.registerPlugin(ScrollTrigger);
 
-/*   useGSAP(
+  useGSAP(
     () => {
       // animation for hero_content
       gsap.from(".hero_content", {
@@ -19,7 +19,7 @@ export default function HeroSection() {
         x: "-700",
         ease: "bounce.out",
         duration: 2,
-        delay:0.3,
+        delay: 0.3,
       });
 
       // animation for hero img
@@ -34,7 +34,7 @@ export default function HeroSection() {
     },
     { scope: myHeroSection }
   );
- */
+
   return (
     <section ref={myHeroSection} className="hero container container">
       <div className="hero_content">
@@ -46,7 +46,10 @@ export default function HeroSection() {
         <Button name="See our work" />
       </div>
       <div className="hero_img">
-        <img src={heroImg} alt="an illustration" />
+        <img
+          src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632598/DMSL/heroImg_bpukpq.svg"
+          alt="an illustration"
+        />
       </div>
     </section>
   );

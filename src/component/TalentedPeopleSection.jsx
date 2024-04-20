@@ -1,6 +1,5 @@
 import Button from "./button";
 import playIcon from "../assets/image/PlayIcon.svg";
-import poweredByImg from "../assets/image/powered-by-img.svg";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -12,7 +11,7 @@ export default function TalentedPeople() {
   gsap.registerPlugin(useGSAP);
   gsap.registerPlugin(ScrollTrigger);
 
-  /* useGSAP(
+  useGSAP(
     () => {
       // animation for hero img
       gsap.from(".talented-people_img", {
@@ -24,16 +23,19 @@ export default function TalentedPeople() {
         opacity: "0",
         ease: "none",
         duration: 0.8,
-        delay:0.5,
+        delay: 0.5,
       });
     },
     { scope: TalentedPeopleSection }
-  ); */
+  );
 
   return (
     <section ref={TalentedPeopleSection} className="talented-people container">
       <div className="talented-people_img">
-        <img src={poweredByImg} alt="illustration" />
+        <img
+          src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632613/DMSL/powered-by-img_fvwqp2.svg"
+          alt="illustration"
+        />
       </div>
       {/* talented-people_content begins */}
       <div className="talented-people_content">
