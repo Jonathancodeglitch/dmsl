@@ -24,6 +24,7 @@ export default function TalentedPeople() {
         opacity: "0",
         ease: "none",
         duration: 0.8,
+        delay:0.5,
       });
     },
     { scope: TalentedPeopleSection }
