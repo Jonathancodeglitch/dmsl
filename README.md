@@ -11,3 +11,9 @@ Currently, two official plugins are available:
 //add animation using gsap
 // add courosel slide for the testimony section
 // when the see more btn is clicked show the remaining text
+
+//problem
+//images not loading fast allowing the next section to job to the current section with screws with the animation
+// my tween animation are loading imediatly
+
+//the solution should be to set up tween when everything in the page has completely loaded
