@@ -13,29 +13,17 @@ export default function ContactUsSection() {
   useGSAP(
     () => {
       // animation to slide in from the left
-      /*  gsap.from(".slide-from-left", {
+      gsap.from(".slide-from-left", {
         scrollTrigger: {
           trigger: ".slide-from-left",
-          start: "top bottom",
-          markers: true,
+          start: "20px bottom",
         },
         x: "-600",
         ease: "none",
         duration: 0.8,
       });
- */
-      // animation to slide in from the right
-      /*   gsap.from(".slide-from-right", {
-        scrollTrigger: {
-          trigger: ".slide-from-right", 
-          start: "top bottom",
-        },
-        x: "600",
-        ease: "none",
-        duration: 0.8,
-      }); */
-    }
-    //{ scope: container }
+    },
+    { scope: container }
   );
 
   return (
@@ -46,7 +34,7 @@ export default function ContactUsSection() {
           alt="illustration"
         />
       </div>
-      <div className="contact-us_content slide-from-right">
+      <div className="contact-us_content">
         <h1 className="text-xl">
           Need Help With <span className="unique-bg">Something</span>? Contact
           Us
