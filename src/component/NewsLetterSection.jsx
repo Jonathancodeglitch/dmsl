@@ -25,7 +25,7 @@ export default function NewsLetterSection() {
   }); */
 
   return (
-    <section className="container newsletter">
+    <section className="container newsletter" ref={container}>
       <div className="newsletter_content">
         <h1 className="text-xl">
           Join Our Newsletters & get
