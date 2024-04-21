@@ -7,11 +7,11 @@ import { useRef } from "react";
 export default function NewsLetterSection() {
   //animation slide in from the right
 
-  gsap.registerPlugin(useGSAP);
+ /* gsap.registerPlugin(useGSAP);
   gsap.registerPlugin(ScrollTrigger);
   const container = useRef(null);
 
-  /*   useGSAP(() => {
+     useGSAP(() => {
     // animation to slide in from the right
      gsap.from(".slide-from-right", {
       scrollTrigger: {
@@ -25,7 +25,7 @@ export default function NewsLetterSection() {
   }); */
 
   return (
-    <section className="container newsletter" ref={container}>
+    <section className="container newsletter">
       <div className="newsletter_content">
         <h1 className="text-xl">
           Join Our Newsletters & get

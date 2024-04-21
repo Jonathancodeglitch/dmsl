@@ -6,14 +6,14 @@ import { useRef } from "react";
 
 export default function ContactUsSection() {
   //animation
-  gsap.registerPlugin(useGSAP);
+  /*  gsap.registerPlugin(useGSAP);
   gsap.registerPlugin(ScrollTrigger);
   const container = useRef(null);
 
-  /* 
+ 
   */
   return (
-    <section className="container contact-us" ref={container}>
+    <section className="container contact-us">
       <div className="contact-us_img slide-from-left">
         <img
           src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632590/DMSL/contact-us-img_papvos.svg"
