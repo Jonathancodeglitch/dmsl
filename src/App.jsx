@@ -26,42 +26,13 @@ function App() {
         scrollTrigger: {
           trigger: fadeUp,
           start: () => "-150px bottom",
+          markers: true,
         },
         y: "200",
         ease: "none",
         duration: 0.4,
       });
     }, []);
-
-    /* 
-    
-    // animation to slide in from the left
-    const slideFromLefts = gsap.utils.toArray(".slide-from-left");
-    slideFromLefts.forEach((slideFromLeft) => {
-      gsap.from(slideFromLeft, {
-        scrollTrigger: {
-          trigger: slideFromLeft,
-          start: "top 80%",
-        },
-        x: "-600",
-        ease: "none",
-        duration: 0.8,
-      });
-    });
-
-    // animation to slide in from the left
-    const slideFromRights = gsap.utils.toArray(".slide-from-right");
-    slideFromRights.forEach((slideFromRight) => {
-      gsap.from(slideFromRight, {
-        scrollTrigger: {
-          trigger: slideFromRight,
-          start: "top 80%",
-        },
-        x: "600",
-        ease: "none",
-        duration: 0.8,
-      });
-    }); */
   });
 
   return (

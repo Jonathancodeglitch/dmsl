@@ -13,15 +13,15 @@ export default function NewsLetterSection() {
 
   useGSAP(() => {
     // animation to slide in from the right
-    gsap.from(".slide-from-right", {
+    /* gsap.from(".slide-from-right", {
       scrollTrigger: {
         trigger: ".slide-from-right",
         start: "20px bottom",
       },
       x: "700",
       ease: "none",
-      duration: 0.8,
-    });
+      duration: 0.5,
+    }); */
   });
 
   return (

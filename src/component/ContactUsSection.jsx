@@ -20,7 +20,7 @@ export default function ContactUsSection() {
         },
         x: "-600",
         ease: "none",
-        duration: 0.8,
+        duration: 0.5,
       });
     },
     { scope: container }
