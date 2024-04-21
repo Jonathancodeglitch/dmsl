@@ -26,7 +26,6 @@ function App() {
         scrollTrigger: {
           trigger: fadeUp,
           start: () => "-150px bottom",
-          
         },
         y: "200",
         ease: "none",
@@ -37,17 +36,19 @@ function App() {
 
   return (
     <>
-      <Header />
-      <HeroSection />
-      <TalentedPeople />
-      <ThingsWeEnjoySection />
-      <CraftExperienceSection />
-      <TeamSection />
-      <PreviousWorkSection />
-      <TestimonialSection />
-      <ContactUsSection />
-      <NewsLetterSection />
-      <FooterSection />
+      <div className="wrapper">
+        <Header />
+        <HeroSection />
+        <TalentedPeople />
+        <ThingsWeEnjoySection />
+        <CraftExperienceSection />
+        <TeamSection />
+        <PreviousWorkSection />
+        <TestimonialSection />
+        <ContactUsSection />
+        <NewsLetterSection />
+        <FooterSection />
+      </div>
     </>
   );
 }
