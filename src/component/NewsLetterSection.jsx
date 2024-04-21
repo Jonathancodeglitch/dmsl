@@ -11,9 +11,9 @@ export default function NewsLetterSection() {
   gsap.registerPlugin(ScrollTrigger);
   const container = useRef(null);
 
-  useGSAP(() => {
+  /*   useGSAP(() => {
     // animation to slide in from the right
-    /* gsap.from(".slide-from-right", {
+     gsap.from(".slide-from-right", {
       scrollTrigger: {
         trigger: ".slide-from-right",
         start: "20px bottom",
@@ -21,8 +21,8 @@ export default function NewsLetterSection() {
       x: "700",
       ease: "none",
       duration: 0.5,
-    }); */
-  });
+    }); 
+  }); */
 
   return (
     <section className="container newsletter" ref={container}>

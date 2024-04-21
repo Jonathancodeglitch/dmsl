@@ -10,22 +10,8 @@ export default function ContactUsSection() {
   gsap.registerPlugin(ScrollTrigger);
   const container = useRef(null);
 
-  useGSAP(
-    () => {
-      // animation to slide in from the left
-      gsap.from(".slide-from-left", {
-        scrollTrigger: {
-          trigger: ".slide-from-left",
-          start: "20px bottom",
-        },
-        x: "-600",
-        ease: "none",
-        duration: 0.5,
-      });
-    },
-    { scope: container }
-  );
-
+  /* 
+  */
   return (
     <section className="container contact-us" ref={container}>
       <div className="contact-us_img slide-from-left">
