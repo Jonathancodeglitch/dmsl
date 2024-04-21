@@ -1,5 +1,4 @@
 import Button from "./button";
-import contactUsImge from "../assets/image/contact-us-img.svg";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -14,8 +13,7 @@ export default function ContactUsSection() {
   useGSAP(
     () => {
       // animation to slide in from the left
-
-     /*  gsap.from(".slide-from-left", {
+      /*  gsap.from(".slide-from-left", {
         scrollTrigger: {
           trigger: ".slide-from-left",
           start: "top bottom",
@@ -27,8 +25,7 @@ export default function ContactUsSection() {
       });
  */
       // animation to slide in from the right
-
-    /*   gsap.from(".slide-from-right", {
+      /*   gsap.from(".slide-from-right", {
         scrollTrigger: {
           trigger: ".slide-from-right", 
           start: "top bottom",
@@ -37,14 +34,17 @@ export default function ContactUsSection() {
         ease: "none",
         duration: 0.8,
       }); */
-    },
+    }
     //{ scope: container }
   );
 
   return (
     <section className="container contact-us" ref={container}>
       <div className="contact-us_img slide-from-left">
-        <img src={contactUsImge} alt="illustration" />
+        <img
+          src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632590/DMSL/contact-us-img_papvos.svg"
+          alt="illustration"
+        />
       </div>
       <div className="contact-us_content slide-from-right">
         <h1 className="text-xl">

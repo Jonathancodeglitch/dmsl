@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Spiral as Hamburger } from "hamburger-react";
-import Logo from "../assets/image/Logo.svg";
 import Button from "./button";
 
 function Header() {

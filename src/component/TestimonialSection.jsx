@@ -1,7 +1,7 @@
-import Profile from './utility/profile';
-import star from '../assets/image/star.svg';
-import right from '../assets/image/Right.svg';
-import left from '../assets/image/Left.svg';
+import Profile from "./utility/profile";
+import star from "../assets/image/star.svg";
+import right from "../assets/image/Right.svg";
+import left from "../assets/image/Left.svg";
 
 export default function TestimonialSection() {
   return (
@@ -14,11 +14,31 @@ export default function TestimonialSection() {
           <Profile />
 
           <div className="star-container">
-            <img className="star" src={star} alt="star" />
-            <img className="star" src={star} alt="star" />
-            <img className="star" src={star} alt="star" />
-            <img className="star" src={star} alt="star" />
-            <img className="star" src={star} alt="star" />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
           </div>
 
           <p className="desc text-md">
@@ -36,11 +56,31 @@ export default function TestimonialSection() {
           <Profile />
 
           <div className="star-container">
-            <img className="star" src={star} alt="star" />
-            <img className="star" src={star} alt="star" />
-            <img className="star" src={star} alt="star" />
-            <img className="star" src={star} alt="star" />
-            <img className="star" src={star} alt="star" />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
           </div>
 
           <p className="desc text-md">
@@ -58,11 +98,31 @@ export default function TestimonialSection() {
           <Profile />
 
           <div className="star-container">
-            <img className="star" src={star} alt="star" />
-            <img className="star" src={star} alt="star" />
-            <img className="star" src={star} alt="star" />
-            <img className="star" src={star} alt="star" />
-            <img className="star" src={star} alt="star" />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
           </div>
 
           <p className="desc text-md">
@@ -80,11 +140,31 @@ export default function TestimonialSection() {
           <Profile />
 
           <div className="star-container">
-            <img className="star" src={star} alt="star" />
-            <img className="star" src={star} alt="star" />
-            <img className="star" src={star} alt="star" />
-            <img className="star" src={star} alt="star" />
-            <img className="star" src={star} alt="star" />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
           </div>
 
           <p className="desc text-md">
@@ -102,11 +182,31 @@ export default function TestimonialSection() {
           <Profile />
 
           <div className="star-container">
-            <img className="star" src={star} alt="star" />
-            <img className="star" src={star} alt="star" />
-            <img className="star" src={star} alt="star" />
-            <img className="star" src={star} alt="star" />
-            <img className="star" src={star} alt="star" />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
           </div>
 
           <p className="desc text-md">
@@ -124,11 +224,31 @@ export default function TestimonialSection() {
           <Profile />
 
           <div className="star-container">
-            <img className="star" src={star} alt="star" />
-            <img className="star" src={star} alt="star" />
-            <img className="star" src={star} alt="star" />
-            <img className="star" src={star} alt="star" />
-            <img className="star" src={star} alt="star" />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
           </div>
 
           <p className="desc text-md">
@@ -146,11 +266,31 @@ export default function TestimonialSection() {
           <Profile />
 
           <div className="star-container">
-            <img className="star" src={star} alt="star" />
-            <img className="star" src={star} alt="star" />
-            <img className="star" src={star} alt="star" />
-            <img className="star" src={star} alt="star" />
-            <img className="star" src={star} alt="star" />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
           </div>
 
           <p className="desc text-md">
@@ -168,11 +308,31 @@ export default function TestimonialSection() {
           <Profile />
 
           <div className="star-container">
-            <img className="star" src={star} alt="star" />
-            <img className="star" src={star} alt="star" />
-            <img className="star" src={star} alt="star" />
-            <img className="star" src={star} alt="star" />
-            <img className="star" src={star} alt="star" />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
+            <img
+              className="star"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
+              alt="star"
+            />
           </div>
 
           <p className="desc text-md">
@@ -189,10 +349,16 @@ export default function TestimonialSection() {
 
       <div className="testimonial_button container">
         <button>
-          <img src={left} alt="right button icon" />
+          <img
+            src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632600/DMSL/Left_lpx0yr.svg"
+            alt="right button icon"
+          />
         </button>
         <button>
-          <img src={right} alt="right button icon" />
+          <img
+            src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632613/DMSL/Right_ofrgq3.svg"
+            alt="right button icon"
+          />
         </button>
       </div>
     </section>

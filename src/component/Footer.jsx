@@ -1,10 +1,3 @@
-import Logo from '../assets/image/Logo.svg';
-import facebookIcon from '../assets/image/facebook.svg';
-import twitterIcon from '../assets/image/twiter.svg';
-import instangramIcon from '../assets/image/instangram.svg';
-import lnIcon from '../assets/image/ln.svg';
-import ballIcon from '../assets/image/ball.svg';
-
 export default function FooterSection() {
   return (
     <section className="footer">
@@ -22,26 +15,43 @@ function SecondaryFooter() {
           <li>
             <div className="logo" href="#">
               <a href="#">
-                <img src={Logo} alt="logo" />
+                <img
+                  src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632604/DMSL/Logo_i4pfua.svg"
+                  alt="logo"
+                />
               </a>
             </div>
           </li>
           <li className="secondary-footer_icon icons">
             <a href="#">
-              {' '}
-              <img src={facebookIcon} alt="social icon" />
+              <img
+                src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632592/DMSL/facebook_qpsudu.svg"
+                alt="social icon"
+              />
             </a>
             <a href="#">
-              <img src={instangramIcon} alt="social icon" />
+              <img
+                src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632598/DMSL/instangram_xqtjop.svg"
+                alt="social icon"
+              />
             </a>
             <a href="#">
-              <img src={lnIcon} alt="social icon" />
+              <img
+                src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632603/DMSL/ln_imqbot.svg"
+                alt="social icon"
+              />
             </a>
             <a href="#">
-              <img src={ballIcon} alt="social icon" />
+              <img
+                src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632589/DMSL/ball_eranj5.svg"
+                alt="social icon"
+              />
             </a>
             <a href="#">
-              <img src={twitterIcon} alt="social icon" />
+              <img
+                src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632620/DMSL/twiter_d9ich3.svg"
+                alt="social icon"
+              />
             </a>
           </li>
           <li className="address">

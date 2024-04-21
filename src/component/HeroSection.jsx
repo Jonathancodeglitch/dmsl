@@ -1,5 +1,4 @@
 import Button from "./button";
-import heroImg from "../assets/image/heroImg.svg";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";

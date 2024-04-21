@@ -1,5 +1,4 @@
 import Button from "./button";
-import playIcon from "../assets/image/PlayIcon.svg";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -23,7 +22,6 @@ export default function TalentedPeople() {
         opacity: "0",
         ease: "none",
         duration: 0.8,
-        delay: 0.5,
       });
     },
     { scope: TalentedPeopleSection }
@@ -55,7 +53,11 @@ export default function TalentedPeople() {
         <div className="talented-people_content_btn">
           <Button name="Learn more" />
           <a href="#" className="talented-people_content_video">
-            <img className="playIcon" src={playIcon} alt="play video icon" />
+            <img
+              className="playIcon"
+              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632607/DMSL/PlayIcon_xoqd51.svg"
+              alt="play video icon"
+            />
             <span>Watch videos</span>
           </a>
         </div>

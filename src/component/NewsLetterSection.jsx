@@ -1,5 +1,4 @@
 import Button from "./button.jsx";
-import newsletterImg from "../assets/image/newsletter-img.svg";
 
 export default function NewsLetterSection() {
   return (
@@ -22,7 +21,10 @@ export default function NewsLetterSection() {
         </form>
       </div>
       <div className="newsletter_img">
-        <img src={newsletterImg} alt="illustration" />
+        <img
+          src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632606/DMSL/newsletter-img_smj084.svg"
+          alt="illustration"
+        />
       </div>
     </section>
   );

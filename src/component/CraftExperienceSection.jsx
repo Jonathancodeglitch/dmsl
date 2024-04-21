@@ -1,5 +1,4 @@
 import Button from "./button";
-import CraftExperienceImg from "../assets/image/craft-experience-img.svg";
 
 export default function CraftExperienceSection() {
   return (
