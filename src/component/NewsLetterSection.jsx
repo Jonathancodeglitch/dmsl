@@ -28,7 +28,7 @@ export default function NewsLetterSection() {
     <section className="container newsletter" ref={container}>
       <div className="newsletter_content">
         <h1 className="text-xl">
-          Join Our Newsletters & get
+          Join Our Newsletters & get {" "}
           <span className="unique-bg"> the latest offers</span>
         </h1>
         <form className="newsletter_form">

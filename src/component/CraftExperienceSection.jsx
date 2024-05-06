@@ -5,23 +5,17 @@ export default function CraftExperienceSection() {
     <section className="container craft-experience">
       <div className="craft-experience_content">
         <h1 className="text-xl">
-          We craft experiences for businesses to help reach
-          <br />
-          <span className="unique-bg">your customers</span>
+          Struggling to be seen? <br />
+          Missing sales due to low visibility?
+          <br /> Don't Get Lost in the Crowd, Get Discovered By
+          <span className="unique-bg">Your Ideal Customers</span>
         </h1>
 
         <p className="text-md">
-          We specialize in creating unique experiences for businesses, all aimed
-          at reaching and engaging your customers effectively. Whether it's
-          through compelling visuals, engaging content, or seamless website
-          designs, we're here to ensure that every interaction with your brand
-          leaves a lasting impression.
-        </p>
-
-        <p className="text-md">
-          Our goal is simple: to help you connect with your audience in a way
-          that feels authentic and impactful, driving meaningful results for
-          your business.
+          Don't let your brand grow anonymous – We bring SEO expertise and
+          targeted advertising to put your business in front of the right
+          people. Watch your website traffic soar and revenue climb with a
+          winning digital strategy
         </p>
 
         <Button name="Learn more" />

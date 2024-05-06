@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
-
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
 :root {
   --text-xxxl: 54px;
   --text-xxl: 28px;
@@ -465,29 +466,36 @@ input.input {
 
 .testimonial_card-container {
   margin-top: 100px;
+  /*  display: flex;
+  align-items: center;
+  overflow-x: scroll; */
+}
+
+.slick-track {
   display: flex;
   align-items: center;
-  overflow: hidden;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+}
+
+.slick-slide {
+  margin-right: 32px;
 }
 
 .testimonial_card {
-  width: 350px;
+  width: 400px !important;
   border-radius: 150px;
   border: 1px solid #949494;
-  padding: 60px 10px;
-  flex-shrink: 0;
+  padding: 60px 70px;
+  flex-shrink: 0 !important;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.testimonial_card.active {
-  width: 400px;
-  padding: 100px 10px;
-}
-
-.testimonial_card {
-  margin-left: 35px;
+.slick-center .testimonial_card {
+  padding: 130px 40px;
+  align-self: center;
 }
 
 .testimonial_card .profile {
@@ -736,9 +744,10 @@ input.input {
 
   .testimonial_card {
     padding: 40px 10px;
+    width: 350px !important;
   }
 
-  .testimonial_card.active {
+  .slick-center .testimonial_card {
     padding: 60px 10px;
   }
 }
@@ -967,6 +976,11 @@ input.input {
     margin-left: 40px;
   }
 
+  /*  .slick-slide[aria-hidden="false"] {
+    width: 350px !important;
+    flex-shrink: 0;
+  } */
+
   /* contact-us */
   .contact-us {
     flex-direction: column;
@@ -1141,6 +1155,11 @@ input.input {
     padding-top: 100px;
   }
 
+  .craft-experience_content h1,
+  .craft-experience_content p {
+    text-align: left;
+  }
+
   .craft-experience_content {
     width: 100%;
   }
@@ -1173,11 +1192,18 @@ input.input {
   }
 
   .testimonial_card {
-    width: 310px;
+    width: 90% !important;
     border-radius: 50px;
     border: 1px solid #949494;
-    padding: 40px 10px;
-    margin: 20px;
+    padding: 40px 20px;
+  }
+
+  .testimonial h3 {
+    font-size: 18px;
+  }
+
+  .slick-slide {
+    margin-right: 0px;
   }
 
   /* contact us */

@@ -38,18 +38,14 @@ export default function TalentedPeople() {
       {/* talented-people_content begins */}
       <div className="talented-people_content">
         <h1 className="talented-people_content_title text-xl">
-          Powered by <span className="unique-bg">talented people</span>
+          We’ll Get Your Ads To The
+          <span className="unique-bg">Right Audience</span>
         </h1>
         <p className="talented-people_content_text text-md">
-          But I must explain to you how all thismistaken idea of denouncing
-          pleasure and praising pain was born and I will give you a complete
-          account of the system.
+          With our deeply experienced and diverse team, we'll target and tailor
+          your ads to resonate with your target audience, guaranteeing
+          successful results every time.
         </p>
-        <p className="talented-people_content_text text-md">
-          I wrote to let them know ready to came back they kicked me of their
-          team slack all of us are make company email.
-        </p>
-
         <div className="talented-people_content_btn">
           <Button name="Learn more" />
           <a href="#" className="talented-people_content_video">

@@ -3,8 +3,8 @@ import HeroSection from "./component/HeroSection";
 import TalentedPeople from "./component/TalentedPeopleSection";
 import ThingsWeEnjoySection from "./component/ThingsWeEnjoySection";
 import CraftExperienceSection from "./component/CraftExperienceSection";
-import TeamSection from "./component/TeamSection";
-import PreviousWorkSection from "./component/PreviousWorkSection";
+/* import TeamSection from "./component/TeamSection";
+import PreviousWorkSection from "./component/PreviousWorkSection"; */
 import TestimonialSection from "./component/TestimonialSection";
 import ContactUsSection from "./component/ContactUsSection";
 import NewsLetterSection from "./component/NewsLetterSection";
@@ -42,8 +42,8 @@ function App() {
         <TalentedPeople />
         <ThingsWeEnjoySection />
         <CraftExperienceSection />
-        <TeamSection />
-        <PreviousWorkSection />
+        {/* <TeamSection /> */}
+        {/* <PreviousWorkSection /> */}
         <TestimonialSection />
         <ContactUsSection />
         <NewsLetterSection />

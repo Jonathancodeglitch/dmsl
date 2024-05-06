@@ -41,11 +41,9 @@ export default function HeroSection() {
     <section ref={myHeroSection} className="hero container container">
       <div className="hero_content">
         <h1 className="hero_text">
-          We help to <br /> Create <span>Brands </span>
-          <br />
-          With a Voice
+          Your brand <br /> can stand out in the crowd
         </h1>
-        <Button name="See our work" />
+        <Button name="Click to see how" />
       </div>
       <div className="hero_img">
         <img

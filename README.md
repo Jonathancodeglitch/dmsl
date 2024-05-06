@@ -8,12 +8,8 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 // todo
-//add animation using gsap
-// add courosel slide for the testimony section
-// when the see more btn is clicked show the remaining text
-
-//problem
-//images not loading fast allowing the next section to job to the current section with screws with the animation
-// my tween animation are loading imediatly
-
-//the solution should be to set up tween when everything in the page has completely loaded
+// work on the testimonial card slide
+// check to see better ways to make the site responsive
+// work on that outline
+//optimize images
+// optimize website

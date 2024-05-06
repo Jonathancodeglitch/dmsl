@@ -1,360 +1,114 @@
 import Profile from "./utility/profile";
-import star from "../assets/image/star.svg";
-import right from "../assets/image/Right.svg";
-import left from "../assets/image/Left.svg";
+import Carousel from "./utility/Carousel";
+import { useRef, useEffect } from "react";
+
+// i am not able to use a set size for all slides because it give a with to slide with npo content which fucks with the layouts
+//it also show slide that has their hidden to be true whih then display the actual slide that should be there
+// also add a width to the slide fuccks with the mobile view
+
+//if i give the testimonial card itself a with , its going to climb it self
+
+// add a margin to the right of the active card
+//  add the need width to the active class
 
 export default function TestimonialSection() {
+  const testimonials = [
+    {
+      imgUrl: "",
+      ratings: 5,
+      testimonial:
+        "1 My experience with Mark is a complete success, from customer service, wide rang of products, clean store, purchasing experience",
+      name: "Samantha Kate",
+      title: "CEO of Floatcom",
+    },
+    {
+      imgUrl: "",
+      ratings: 5,
+      testimonial:
+        "2 My experience with Mark is a complete success, from customer service, wide rang of products, clean store, purchasing experience",
+      name: "Samantha Kate",
+      title: "CEO of Floatcom",
+    },
+    {
+      imgUrl: "",
+      ratings: 5,
+      testimonial:
+        "3 My experience with Mark is a complete success, from customer service, wide rang of products, clean store, purchasing experience",
+      name: "Samantha Kate",
+      title: "CEO of Floatcom",
+    },
+    {
+      imgUrl: "",
+      ratings: 5,
+      testimonial:
+        "4 My experience with Mark is a complete success, from customer service, wide rang of products, clean store, purchasing experience",
+      name: "Samantha Kate",
+      title: "CEO of Floatcom",
+    },
+    {
+      imgUrl: "",
+      ratings: 5,
+      testimonial:
+        "5 My experience with Mark is a complete success, from customer service, wide rang of products, clean store, purchasing experience",
+      name: "Samantha Kate",
+      title: "CEO of Floatcom",
+    },
+    {
+      imgUrl: "",
+      ratings: 5,
+      testimonial:
+        "6 My experience with Mark is a complete success, from customer service, wide rang of products, clean store, purchasing experience",
+      name: "Samantha Kate",
+      title: "CEO of Floatcom",
+    },
+    {
+      imgUrl: "",
+      ratings: 5,
+      testimonial:
+        "7 My experience with Mark is a complete success, from customer service, wide rang of products, clean store, purchasing experience",
+      name: "Samantha Kate",
+      title: "CEO of Floatcom",
+    },
+    {
+      imgUrl: "",
+      ratings: 5,
+      testimonial:
+        "8 My experience with Mark is a complete success, from customer service, wide rang of products, clean store, purchasing experience",
+      name: "Samantha Kate",
+      title: "CEO of Floatcom",
+    },
+  ];
+
+  let slides = useRef(null);
+
+  function nextSlide() {
+    return slides.current.nextSlide();
+  }
+
+  function previousSlide() {
+    return slides.current.previousSlide();
+  }
+
+  useEffect(() => {
+    console.log();
+  });
+
   return (
     <section className="testimonial">
       <h1 className="text-xl">Testimonial</h1>
       <h3 className="text-l">Over 18 happy clients.</h3>
       <div className="testimonial_card-container">
-        {/* card begin */}
-        <div className="testimonial_card">
-          <Profile />
-
-          <div className="star-container">
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-          </div>
-
-          <p className="desc text-md">
-            “My experience with Mark is a complete success, from customer
-            service, wide rang of products, clean store, purchasing experience
-          </p>
-
-          <p className="name text-md">Samantha Kate</p>
-
-          <p className="title text-md">CEO of Floatcom</p>
-        </div>
-        {/* card ends */}
-        {/* card begin */}
-        <div className="testimonial_card">
-          <Profile />
-
-          <div className="star-container">
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-          </div>
-
-          <p className="desc text-md">
-            “My experience with Mark is a complete success, from customer
-            service, wide rang of products, clean store, purchasing experience
-          </p>
-
-          <p className="name text-md">Samantha Kate</p>
-
-          <p className="title text-md">CEO of Floatcom</p>
-        </div>
-        {/* card ends */}
-        {/* card begin */}
-        <div className="testimonial_card active">
-          <Profile />
-
-          <div className="star-container">
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-          </div>
-
-          <p className="desc text-md">
-            “My experience with Mark is a complete success, from customer
-            service, wide rang of products, clean store, purchasing experience
-          </p>
-
-          <p className="name text-md">Samantha Kate</p>
-
-          <p className="title text-md">CEO of Floatcom</p>
-        </div>
-        {/* card ends */}
-        {/* card begin */}
-        <div className="testimonial_card">
-          <Profile />
-
-          <div className="star-container">
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-          </div>
-
-          <p className="desc text-md">
-            “My experience with Mark is a complete success, from customer
-            service, wide rang of products, clean store, purchasing experience
-          </p>
-
-          <p className="name text-md">Samantha Kate</p>
-
-          <p className="title text-md">CEO of Floatcom</p>
-        </div>
-        {/* card ends */}
-        {/* card begin */}
-        <div className="testimonial_card">
-          <Profile />
-
-          <div className="star-container">
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-          </div>
-
-          <p className="desc text-md">
-            “My experience with Mark is a complete success, from customer
-            service, wide rang of products, clean store, purchasing experience
-          </p>
-
-          <p className="name text-md">Samantha Kate</p>
-
-          <p className="title text-md">CEO of Floatcom</p>
-        </div>
-        {/* card ends */}
-        {/* card begin */}
-        <div className="testimonial_card">
-          <Profile />
-
-          <div className="star-container">
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-          </div>
-
-          <p className="desc text-md">
-            “My experience with Mark is a complete success, from customer
-            service, wide rang of products, clean store, purchasing experience
-          </p>
-
-          <p className="name text-md">Samantha Kate</p>
-
-          <p className="title text-md">CEO of Floatcom</p>
-        </div>
-        {/* card ends */}
-        {/* card begin */}
-        <div className="testimonial_card">
-          <Profile />
-
-          <div className="star-container">
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-          </div>
-
-          <p className="desc text-md">
-            “My experience with Mark is a complete success, from customer
-            service, wide rang of products, clean store, purchasing experience
-          </p>
-
-          <p className="name text-md">Samantha Kate</p>
-
-          <p className="title text-md">CEO of Floatcom</p>
-        </div>
-        {/* card ends */}
-        {/* card begin */}
-        <div className="testimonial_card">
-          <Profile />
-
-          <div className="star-container">
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-            <img
-              className="star"
-              src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632614/DMSL/star_u16skq.svg"
-              alt="star"
-            />
-          </div>
-
-          <p className="desc text-md">
-            “My experience with Mark is a complete success, from customer
-            service, wide rang of products, clean store, purchasing experience
-          </p>
-
-          <p className="name text-md">Samantha Kate</p>
-
-          <p className="title text-md">CEO of Floatcom</p>
-        </div>
-        {/* card ends */}
+        <Carousel testimonials={testimonials} ref={slides} />
       </div>
 
       <div className="testimonial_button container">
-        <button>
+        <button onClick={previousSlide}>
           <img
             src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632600/DMSL/Left_lpx0yr.svg"
-            alt="right button icon"
+            alt="left button icon"
           />
         </button>
-        <button>
+        <button onClick={nextSlide}>
           <img
             src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632613/DMSL/Right_ofrgq3.svg"
             alt="right button icon"
