@@ -73,7 +73,7 @@ export default forwardRef(function Carousel({ testimonials }, ref) {
         {testimonials.map((testimonial, index) => {
           return (
             <div className="testimonial_card" key={index}>
-              <Profile />
+              <Profile imgUrl={testimonial.imgUrl} />
 
               <div className="star-container">
                 {/* check the ratings for each testimonial and display corresponding star */}

@@ -41,7 +41,8 @@ export default function HeroSection() {
     <section ref={myHeroSection} className="hero container container">
       <div className="hero_content">
         <h1 className="hero_text">
-          Your brand <br /> can stand out in the crowd
+          Your <span className="bg-unique">brand</span> <br /> can stand out in
+          the crowd
         </h1>
         <Button name="Click to see how" />
       </div>

@@ -14,7 +14,8 @@ import { useRef, useEffect } from "react";
 export default function TestimonialSection() {
   const testimonials = [
     {
-      imgUrl: "",
+      imgUrl:
+        "https://res.cloudinary.com/dv6uz0bks/image/upload/v1715044362/DMSL/PD-logo-with-name_eq4zkk.png",
       ratings: 5,
       testimonial:
         "1 My experience with Mark is a complete success, from customer service, wide rang of products, clean store, purchasing experience",
@@ -22,7 +23,8 @@ export default function TestimonialSection() {
       title: "CEO of Floatcom",
     },
     {
-      imgUrl: "",
+      imgUrl:
+        "https://res.cloudinary.com/dv6uz0bks/image/upload/v1715044359/DMSL/images_16_b0udvj.png",
       ratings: 5,
       testimonial:
         "2 My experience with Mark is a complete success, from customer service, wide rang of products, clean store, purchasing experience",
@@ -30,7 +32,8 @@ export default function TestimonialSection() {
       title: "CEO of Floatcom",
     },
     {
-      imgUrl: "",
+      imgUrl:
+        "https://res.cloudinary.com/dv6uz0bks/image/upload/v1715044358/DMSL/download_62_smccrs.jpg",
       ratings: 5,
       testimonial:
         "3 My experience with Mark is a complete success, from customer service, wide rang of products, clean store, purchasing experience",
@@ -38,7 +41,8 @@ export default function TestimonialSection() {
       title: "CEO of Floatcom",
     },
     {
-      imgUrl: "",
+      imgUrl:
+        "https://res.cloudinary.com/dv6uz0bks/image/upload/v1715044312/DMSL/download_28_lmvrsr.png",
       ratings: 5,
       testimonial:
         "4 My experience with Mark is a complete success, from customer service, wide rang of products, clean store, purchasing experience",
@@ -46,7 +50,8 @@ export default function TestimonialSection() {
       title: "CEO of Floatcom",
     },
     {
-      imgUrl: "",
+      imgUrl:
+        "https://res.cloudinary.com/dv6uz0bks/image/upload/v1715044310/DMSL/cropped-The-print-haven-copy-300x300_1_jerrhc.png",
       ratings: 5,
       testimonial:
         "5 My experience with Mark is a complete success, from customer service, wide rang of products, clean store, purchasing experience",
@@ -54,7 +59,8 @@ export default function TestimonialSection() {
       title: "CEO of Floatcom",
     },
     {
-      imgUrl: "",
+      imgUrl:
+        "https://res.cloudinary.com/dv6uz0bks/image/upload/v1715044309/DMSL/YWIIT_GREEN_MConverter.eu_rddp1v.png",
       ratings: 5,
       testimonial:
         "6 My experience with Mark is a complete success, from customer service, wide rang of products, clean store, purchasing experience",
@@ -62,7 +68,8 @@ export default function TestimonialSection() {
       title: "CEO of Floatcom",
     },
     {
-      imgUrl: "",
+      imgUrl:
+        "https://res.cloudinary.com/dv6uz0bks/image/upload/v1715044308/DMSL/rekit_uu3pmz.png",
       ratings: 5,
       testimonial:
         "7 My experience with Mark is a complete success, from customer service, wide rang of products, clean store, purchasing experience",
@@ -70,7 +77,8 @@ export default function TestimonialSection() {
       title: "CEO of Floatcom",
     },
     {
-      imgUrl: "",
+      imgUrl:
+        "https://res.cloudinary.com/dv6uz0bks/image/upload/v1715044308/DMSL/rekit_uu3pmz.png",
       ratings: 5,
       testimonial:
         "8 My experience with Mark is a complete success, from customer service, wide rang of products, clean store, purchasing experience",

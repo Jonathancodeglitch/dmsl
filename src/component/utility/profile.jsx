@@ -1,3 +1,3 @@
-export default function Profile() {
-  return <div className="profile"></div>;
+export default function Profile({ imgUrl }) {
+  return <div className="profile" alt="profile" />;
 }

@@ -5,9 +5,8 @@ export default function CraftExperienceSection() {
     <section className="container craft-experience">
       <div className="craft-experience_content">
         <h1 className="text-xl">
-          Struggling to be seen? <br />
-          Missing sales due to low visibility?
-          <br /> Don't Get Lost in the Crowd, Get Discovered By
+          Struggling to be seen? Missing sales due to low visibility? Don't Get
+          Lost in the Crowd, Get Discovered By
           <span className="unique-bg">Your Ideal Customers</span>
         </h1>
 

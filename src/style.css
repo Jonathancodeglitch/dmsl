@@ -50,13 +50,12 @@ ul {
 
 .unique-bg {
   position: relative;
-  display: inline-block;
-  width: fit-content;
+  
+
 }
 
 .unique-bg::after {
   content: "";
-  display: block;
   position: absolute;
   bottom: -6px;
   left: 0px;
@@ -266,9 +265,9 @@ input.input {
 .thing-we-enjoy-container {
   margin-top: 200px;
   padding-bottom: 200px;
-  background-image: url("./assets/image/background-img-1.svg");
+  background-image: url("https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632588/DMSL/background-img-1_ktxjgb.svg");
   background-repeat: no-repeat;
-  background-position: 0px 130px;
+  background-position: 0px 200px;
 }
 
 .thing-we-enjoy {
@@ -527,7 +526,7 @@ input.input {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .testimonial_button button {
@@ -589,8 +588,8 @@ input.input {
 
 .footer {
   padding-top: 220px;
-  background-image: url("./assets/image/Illustration-2.svg"),
-    url("./assets/image/Illustration-1.svg");
+  background-image: url("https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632598/DMSL/Illustration-2_jdaxr5.svg"),
+    url("https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632598/DMSL/Illustration-1_qi7wnp.svg");
   background-position: left bottom, right bottom;
   background-repeat: no-repeat, no-repeat;
 }
@@ -719,11 +718,11 @@ input.input {
 
   /* things we enjoy */
   .thing-we-enjoy-container {
-    background-image: url("./assets/image/background-img-1.svg");
+    background-image: url("https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632588/DMSL/background-img-1_ktxjgb.svg");
     background-repeat: no-repeat;
     padding-bottom: 70px;
     background-size: 652px 550px;
-    background-position: 0px 100px;
+    background-position: 0px 250px;
   }
 
   /* craft-experience */
@@ -795,7 +794,7 @@ input.input {
   /* things we enjoy  */
 
   .thing-we-enjoy-container {
-    background-position: -20px 160px;
+    background-position: -20px 280px;
     background-size: 534px 453px;
     padding-bottom: 0px;
   }
@@ -898,7 +897,7 @@ input.input {
   /* things we enjoy */
 
   .thing-we-enjoy-container {
-    background: url("./assets/image/things-mobile-bg.svg");
+    background: url("https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632615/DMSL/things-mobile-bg_cmiws9.svg");
     background-repeat: no-repeat;
     background-position: right center;
   }
@@ -969,7 +968,6 @@ input.input {
   /* testimonials */
   .testimonial_button {
     justify-content: center;
-    margin-top: 100px;
   }
 
   .testimonial_button > * + * {
@@ -1029,8 +1027,8 @@ input.input {
 
   /* footer */
   .footer {
-    background-image: url("./assets/image/footer-mobile-bg.svg"),
-      url("./assets/image/footer-mobile-bg.svg");
+    background-image: url("https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632594/DMSL/footer-mobile-bg_bv3dof.svg"),
+      url("https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632594/DMSL/footer-mobile-bg_bv3dof.svg");
     background-position: top center, bottom center;
   }
 
