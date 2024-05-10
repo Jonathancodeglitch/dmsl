@@ -48,7 +48,7 @@ export default function HeroSection() {
       </div>
       <div className="hero_img">
         <img
-          src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1715364688/DMSL/Brand_stand_out_abstract_b6wnzi.jpg"
+          src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1715364545/DMSL/Brand_Stand_Out_Aesthetic_iswenz.jpg"
           alt="an illustration"
         />
       </div>
