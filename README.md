@@ -8,7 +8,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 // todo
-// work on the testimonial card slide
+
 // check to see better ways to make the site responsive
 // work on that outline
 //optimize images

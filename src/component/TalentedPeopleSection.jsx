@@ -31,7 +31,7 @@ export default function TalentedPeople() {
     <section ref={TalentedPeopleSection} className="talented-people container">
       <div className="talented-people_img">
         <img
-          src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632613/DMSL/powered-by-img_fvwqp2.svg"
+          src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1715364487/DMSL/Brands_Audience_jramnz.png"
           alt="illustration"
         />
       </div>
