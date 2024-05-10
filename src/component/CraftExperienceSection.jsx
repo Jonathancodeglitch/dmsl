@@ -7,7 +7,7 @@ export default function CraftExperienceSection() {
         <h1 className="text-xl">
           Struggling to be seen? Missing sales due to low visibility? Don't Get
           Lost in the Crowd, Get Discovered By
-          <span className="unique-bg">Your Ideal Customers</span>
+          <span className="unique-bg"> Your Ideal Customers</span>
         </h1>
 
         <p className="text-md">
@@ -21,7 +21,7 @@ export default function CraftExperienceSection() {
       </div>
       <div className="craft-experience_img">
         <img
-          src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1713632591/DMSL/craft-experience-img_dsfkhy.svg"
+          src="https://res.cloudinary.com/dv6uz0bks/image/upload/v1715371102/DMSL/Brand_visibility_yytqum.png"
           alt="illustration"
         />
       </div>
